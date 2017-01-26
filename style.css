@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: 'Chivo', sans-serif;
+  border: 1px dotted red;
+}
+
+body {
+  max-width: 1000px;
+}
+
+.backgroundimg {
+  background-image: url(./normal-mode/assets/background.jpg);
+  background-size: cover;
+  background-position: 0% 10%;
+  height: 325px;
+  text-align: center;
+  color: white;
+  font-size: 250%;
+  margin-top: 10px;
+}
+
+.navbar {
+  color: grey;
+}
+
+.pricing {
+  color: black;
+}
+
+#logo {
+  padding-left: 10px;
+}
+
+.navlist {
+  padding: 15px;
+  font-size: 88%;
+}
+
+.motto {
+  padding-top: 100px;
+}
