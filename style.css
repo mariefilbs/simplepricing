@@ -3,7 +3,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   font-family: 'Chivo', sans-serif;
-  border: 1px dotted red;
+  /*border: 1px dotted red;*/
 }
 
 body {
@@ -40,4 +40,30 @@ body {
 
 .motto {
   padding-top: 100px;
+}
+
+.three-boxes {
+  overflow: auto;
+}
+
+.membership {
+  border: 2px solid grey;
+  width: 200px;
+  height: 200px;
+  float: left;
+
+}
+
+.options-list {
+  list-style: none;
+  font-size: 75%;
+}
+
+.green {
+   background-color: #4C894C;
+   color: white;
+}
+
+.per-month {
+  color:#B0CEB0;
 }
