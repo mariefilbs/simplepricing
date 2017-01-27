@@ -2,7 +2,7 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   /*border: 1px dotted red;*/
 }
 
@@ -42,21 +42,52 @@ body {
   padding-top: 100px;
 }
 
+li {
+  display: block;
+  text-align: center;
+  border: 0.5px solid grey;
+  border-bottom: 0px solid grey;
+  background-color: #F7F7F7;
+  padding: 10px;
+}
+
+ul {
+  margin-top: 0px;
+}
+
 .three-boxes {
-  overflow: auto;
+  /*overflow: auto;*/
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.top-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.personal {
+  font-size: 80%;
+}
+
+.price {
+  font-size: 300%;
 }
 
 .membership {
-  border: 2px solid grey;
+  /*border: 2px solid lightgrey;*/
   width: 200px;
   height: 200px;
-  float: left;
-
+  display: inline-block;
+  margin: 10px;
 }
+
 
 .options-list {
   list-style: none;
   font-size: 75%;
+  padding-left: 0px;
 }
 
 .green {
@@ -64,6 +95,80 @@ body {
    color: white;
 }
 
-.per-month {
-  color:#B0CEB0;
+.blue {
+   background-color:#2C4985;
+   color: white;
+ }
+
+ .black {
+   background-color: #111111;
+   color: white;
+ }
+
+.per-month-green {
+  color: #A8C8A8;
+  font-size: 70%;
+}
+
+.per-month-blue {
+  color: #93A1BF;
+  font-size: 70%;
+}
+
+.per-month-black {
+  color: #878787;
+  font-size: 70%;
+}
+
+.choose {
+  text-align: center;
+  border: 0.5px solid grey;
+  margin-top: -15px;
+  padding: 15px;
+}
+
+button {
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  background-color: white;
+  font-size: 80%;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.lower-content {
+  text-align: left;
+	padding-left: 135px;
+  padding-top: 20px;
+}
+
+.four-boxes {
+	width: 355px;
+	margin-right: 23px;
+	margin-left: 23px;
+	margin-top: 30px;
+	display: inline-block;
+	font-size: 10pt;
+	line-height: 21px;
+  vertical-align: top;
+}
+
+.lower-header {
+	color: black;
+	letter-spacing: 4px;
+  font-weight: 900;
+  font-size: 120%;
+}
+
+footer {
+  background-color: black;
+  color: grey;
+  text-align: center;
+  padding: 30px;
+  font-size: 80%;
+}
+
+footer a {
+  color: white;
 }
