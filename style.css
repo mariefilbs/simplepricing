@@ -58,17 +58,18 @@ ul {
 .three-boxes {
   /*overflow: auto;*/
   text-align: center;
-  margin-left: 80px;
+  margin-left: 30px auto;
   margin-top: 20px;
 }
 
 .top-content {
   text-align: center;
-  padding: 20px;
+  padding: 35px;
 }
 
 .personal {
-  font-size: 80%;
+  font-size: 90%;
+  letter-spacing: 3px;
 }
 
 .price {
@@ -77,7 +78,7 @@ ul {
 
 .membership {
   /*border: 2px solid lightgrey;*/
-  width: 200px;
+  width: 260px;
   height: 200px;
   display: inline-block;
   margin: 10px;
@@ -107,17 +108,17 @@ ul {
 
 .per-month-green {
   color: #A8C8A8;
-  font-size: 70%;
+  font-size: 100%;
 }
 
 .per-month-blue {
   color: #93A1BF;
-  font-size: 70%;
+  font-size: 100%;
 }
 
 .per-month-black {
   color: #878787;
-  font-size: 70%;
+  font-size: 100%;
 }
 
 .choose {
@@ -145,12 +146,12 @@ button {
 
 .four-boxes {
 	width: 355px;
-	margin-right: 23px;
-	margin-left: 23px;
+	margin-right: 25px;
+	margin-left: 25px auto;
 	margin-top: 30px;
 	display: inline-block;
 	font-size: 10pt;
-	line-height: 21px;
+	line-height: 20px;
   vertical-align: top;
 }
 
