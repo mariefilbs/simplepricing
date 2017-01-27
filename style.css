@@ -138,6 +138,12 @@ button {
   padding-right: 10px;
 }
 
+button a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
 .lower-content {
   text-align: left;
 	padding-left: 135px;
