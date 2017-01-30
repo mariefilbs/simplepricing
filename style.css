@@ -56,10 +56,10 @@ ul {
 }
 
 .three-boxes {
-  /*overflow: auto;*/
   text-align: center;
   margin-left: 30px auto;
   margin-top: 20px;
+
 }
 
 .top-content {
@@ -77,7 +77,6 @@ ul {
 }
 
 .membership {
-  /*border: 2px solid lightgrey;*/
   width: 260px;
   height: 200px;
   display: inline-block;
@@ -146,8 +145,9 @@ button a {
 
 .lower-content {
   text-align: left;
-	padding-left: 135px;
+	padding-left: 62px;
   padding-top: 20px;
+  margin: 30px;
 }
 
 .four-boxes {
@@ -155,6 +155,7 @@ button a {
 	margin-right: 25px;
 	margin-left: 25px auto;
 	margin-top: 30px;
+  padding: 18px 18px;
 	display: inline-block;
 	font-size: 10pt;
 	line-height: 20px;
